@@ -1,0 +1,9 @@
+li $s0, 10
+li $s1, 20
+li $s2, 5
+li $s3, 15
+li $s4, 25
+addi $s6, $s2, 10
+move $s3, $s2
+mult $s0, $s0, $s1
+sub $s4, $s4, $s4

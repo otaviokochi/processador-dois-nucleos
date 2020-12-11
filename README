@@ -1,0 +1,11 @@
+estava ocorrendo o erro:
+"main.c:(.text+0x1274): undefined reference to `pow'
+collect2: error: ld returned 1 exit status"
+na hora de compilar o programa, por isso foi necessário passar a flag -lm ao compilar o arquivo, como está no makefile,
+caso não seja necessário usar a flag -lm no outro computador, basta removê-la
+
+
+Para fazer o makefile do relatorio:
+sudo apt install texlive
+sudo apt install texlive-publishers
+sudo apt install texlive-lang-portuguese
