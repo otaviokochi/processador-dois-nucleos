@@ -1,0 +1,1 @@
+# processador-dois-nucleos
